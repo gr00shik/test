@@ -7,7 +7,7 @@ public class MyServiceTest extends TestCase {
 
     public void testTest1() {
         MyService service = new MyService();
-        String helo = service.test("helo");
+        String helo = service.test("hello");
         Assert.assertEquals("Hello", helo);
     }
 }
